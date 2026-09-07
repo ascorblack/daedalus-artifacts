@@ -34,7 +34,7 @@
   --line: #1b3a42;
   --text: #dce8e6;
   --text-2: #9db4ae;
-  --text-3: #6f8a83;
+  --text-3: #7d9a92;
   --bio: #6ee7d8;
   --lamp: #ffb454;
   --danger: #ff8f6b;
@@ -141,6 +141,9 @@ button:focus-visible, a:focus-visible {
   font: 400 15px/1.5 var(--mono);
   color: var(--bio);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 .agent-links a:hover { text-decoration: underline; }
 
@@ -157,8 +160,8 @@ button:focus-visible, a:focus-visible {
 .invitation-copy button {
   margin-left: 10px;
   vertical-align: middle;
-  padding: 8px 14px;
-  min-height: 36px;
+  padding: 10px 16px;
+  min-height: 44px;
 }
 .invitation-status { font: 400 13px/1.5 var(--mono); color: var(--text-3); }
 .invitation-status:not(:empty) { display: block; margin-top: 8px; }
@@ -204,7 +207,14 @@ button:focus-visible, a:focus-visible {
   border-top: 1px solid var(--line);
   margin-top: 36px;
 }
-.site-nav a { font: 400 14.5px/1.6 var(--mono); color: var(--text-2); text-decoration: none; }
+.site-nav a {
+  font: 400 14.5px/1.6 var(--mono);
+  color: var(--text-2);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
 .site-nav a:hover { color: var(--bio); text-decoration: underline; }
 .fineprint {
   font: 400 13.5px/1.7 var(--mono);
@@ -269,10 +279,10 @@ button:focus-visible, a:focus-visible {
   letter-spacing: 0.06em;
   color: var(--text-3);
   text-decoration: none;
-  padding: 10px 16px;
+  padding: 12px 16px;
   border-radius: var(--pill);
   border: 1px solid transparent;
-  min-height: 40px;
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
 }
