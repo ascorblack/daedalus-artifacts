@@ -32,11 +32,4 @@
       status.textContent = "Report stub: this demo does not contact the board.";
     });
   }
-
-  var toggle = document.querySelector("[data-toggle]");
-  if (toggle) {
-    toggle.addEventListener("click", function () {
-      status.textContent = "Interactive SVG is mocked in this demo (static cover).";
-    });
-  }
 })();
