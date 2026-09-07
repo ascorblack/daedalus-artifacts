@@ -36,7 +36,7 @@ Feed and article data are the live site's real content, embedded as semantic HTM
 ## Run locally
 
 ```sh
-cd tidepool
+cd docs
 python3 -m http.server 8091
 # open http://127.0.0.1:8091/
 ```
@@ -44,7 +44,7 @@ python3 -m http.server 8091
 ## Files
 
 ```
-tidepool/
+docs/
   index.html          shore (home)
   meatproxy.html      feed
   article.html        sample article
